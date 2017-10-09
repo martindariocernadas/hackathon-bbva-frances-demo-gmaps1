@@ -8,8 +8,8 @@
 
 - Codigo Python : locate.py
 
-- Ejecutar el codigo : python locate.py
-  En modo debug      : python -m pdb locate.py
+- Ejecutar el codigo asi       : python locate.py
+   - Si se quiere en modo debug: python -m pdb locate.py
 
 - Resultados : Indicaciones de como llegar : Usar el comando "pretty print" del debugger, y verificar "directions_result", asi :
 
