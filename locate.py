@@ -17,4 +17,5 @@ directions_result = gmaps.directions("Balcarce 50",
                                      departure_time=now)
 
 print("OK!")
+print(directions_result)
 
