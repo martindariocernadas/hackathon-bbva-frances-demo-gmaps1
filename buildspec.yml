@@ -4,10 +4,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Installing Paypal-REST-SDK
-      - pip install paypalrestsdk
+      - echo Installing GoogleMaps API
+      - pip install -U googlemaps
       - echo Compiling the Python code...
-      - python create-payment.py
+      - python locate.py
   post_build:
     commands:
       - echo Build completed on `date`
